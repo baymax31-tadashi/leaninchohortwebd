@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search with Google</title>
+</head>
+<body>
+  <h1>Search with Google</h1>
+  <form action="https://www.google.com/search" method="get">
+    <label for="query">Enter search term:</label>
+    <input type="text" id="query" name="q" required>
+    <button type="submit">Search</button>
+  </form>
+
+  <h1>Registration Form</h1>
+
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName" required><br><br>
+
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastName" required><br><br>
+
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select><br><br>
+
+  <label for="terms">
+    <input type="checkbox" id="terms" name="terms" required>
+    I agree to the terms of service
+  </label><br><br>
+
+  <button type="submit">Register</button>
+</body>
+</html>
